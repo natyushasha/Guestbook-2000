@@ -1,6 +1,6 @@
 // ---------------- SUPABASE INIT ----------------
 const supabaseUrl = "https://dmoljjsmmvtajwfpahao.supabase.co";
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRtb2xqanNtbXZ0YWp3ZnBhaGVvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI0OTg0NDIsImV4cCI6MjA5ODA3NDQ0Mn0.yNXVSJQTh-mB4wsTfQB3-h_pLmXRF-KhWIi18L_x6_M"; // MUST be real anon key
+const supabaseKey = "sb_publishable_9b6JbMwy9ShyI0WqioCKqA_IQXBf--v"; // MUST be real anon key
 
 const supabaseClient = supabase.createClient(supabaseUrl, supabaseKey);
 
