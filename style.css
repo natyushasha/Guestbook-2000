@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background: #1b1b1b;
+  font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+
+.window {
+  width: 900px;
+  margin: 20px auto;
+  border: 3px solid #999;
+  background: #dcdcdc;
+}
+
+.titlebar {
+  background: linear-gradient(#4a90e2, #1f5fa8);
+  color: white;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.panel {
+  flex: 1;
+  background: #efefef;
+  border: 2px inset #aaa;
+  padding: 10px;
+  height: 600px;
+  overflow-y: auto;
+}
+
+.message {
+  background: white;
+  border: 1px solid #aaa;
+  padding: 6px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+textarea, input {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: inherit;
+}
